@@ -8,5 +8,5 @@
  * @date       23.07.13
  */
 
-angular.module('enlitePack');
+angular.module('enlitePack', []);
 

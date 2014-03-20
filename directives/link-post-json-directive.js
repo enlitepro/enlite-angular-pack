@@ -1,4 +1,4 @@
-angular.module('enlitePack').directive('linkPostJson', function ($http) {
+angular.module('enlitePack').directive('linkPostJson', ['$http', function ($http) {
     return {
         restrict: "A",
         scope: {
@@ -32,4 +32,4 @@ angular.module('enlitePack').directive('linkPostJson', function ($http) {
             });
         }
     };
-});
+}]);
