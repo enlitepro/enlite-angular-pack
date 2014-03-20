@@ -1,0 +1,8 @@
+{
+    "name": "enlite-angular-pack",
+    "version": "0.1.0",
+    "dependencies": {
+        "jquery": ">=1.9 <3",
+        "angular": "~1"
+    }
+}
