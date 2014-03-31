@@ -2,7 +2,7 @@
  * @author  Evgeny Shpilevsky <evgeny@shpilevsky.com>
  * @date    9/27/13
  */
-angular.module("enlitePack").directive("clickOut", [$document, function ($document) {
+angular.module("enlitePack").directive("clickOut", ['$document', function ($document) {
 
     return {
         restrict: 'A',
